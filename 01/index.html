@@ -2,14 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title> Website Responsive</title>
+
+	<!--<title>  Responsive Website </title>-->
+	<script language='JavaScript'>
+        var txt=" Resposive Website |";
+        var speed=300;
+        var refresh=null;
+        function action() { document.title=txt;
+        txt=txt.substring(1,txt.length)+txt.charAt(0);
+        refresh=setTimeout("action()",speed);}action();
+    </script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/png-transparent-computer-icons-anime-manga-anime-white-face-text.png">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="container">
 		<div class="header">
-			<h1 align="center"> Selamat Datang XYZ </h1>
+			<h1 align="center">Welcome to the XYZ Library </h1>
 		</div>
 		<div class="main">
 			<div class="left">
@@ -17,24 +28,24 @@
 					<ul>
 						<li><a href="#">Login</a></li>
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Daftar Buku
+						<li><a href="#">Book List
 					</ul>
 				
 			</div>
 			<div class="middle">
 				<h3 align="center">Berita</h3>
-				<p  align="center"><strong><a href="#" >Membuat Design Web Responsive</a></strong></p>
+				<p  align="center"><strong><a href="#" >Make Responsive Web Design</a></strong></p>
 				<p><img src="images/72302-artist-artwork-digital-art-hd-artstation.jpg" alt=""></p>
-				<p><a href="#">Baca Selengkapnya >> </a> 
+				<p><a href="#">Read more >> </a> 
 			</div>
 			
 			<div class="right">
-				<h3 align="center">Terpopuler</h3>
+				<h3 align="center">Most Popular</h3>
 				<p>
 					<ul>
 					<li><a href="#">Web Design</a></li>
-					<li><a href="#">Pemrograman</a></li>
-					<li><a href="#">Database</a></li>
+					<li><a href="#">Programming</a></li>
+					<li><a href="#">Databases</a></li>
 					</ul>
 				</p>
 			</div>	
